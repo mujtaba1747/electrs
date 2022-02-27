@@ -5,7 +5,6 @@ Indexing and serving metrics are exported via [Prometheus](https://github.com/pi
 ```bash
 $ sudo apt install prometheus
 $ echo "
-scrape_configs:
   - job_name: electrs
     static_configs:
       - targets: ['localhost:4224']
